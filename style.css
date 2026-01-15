@@ -753,6 +753,7 @@ header.scrolled h1 {
     margin: 0 auto;
 }
 
+
 /* Landing page */
 #landing-section {
     min-height: calc(100vh - 72px);
@@ -1652,7 +1653,6 @@ button:disabled:hover {
 /* ================================
    AUTH PAGES (SIGN IN / SIGN UP)
    Scoped – Safe to paste in main CSS
-================================ */
 
 /* Page wrapper */
 .auth-page {
