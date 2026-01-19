@@ -120,38 +120,38 @@
                             <form id="resume-form">
                                 <h2 class="section-title">Personal Information</h2>
                                 <label for="name">Name</label>
-                                <input type="text" id="name">
+                                <input type="text" id="name" placeholder="Enter your full name">
 
                                 <label for="email">Email</label>
-                                <input type="email" id="email">
+                                <input type="email" id="email" placeholder="Enter your email address">
 
                                 <label for="phone">Phone</label>
-                                <input type="tel" id="phone">
+                                <input type="tel" id="phone" placeholder="Enter your phone number">
 
                                 <label for="location">Location</label>
-                                <input type="text" id="location">
+                                <input type="text" id="location" placeholder="Enter your city and country">
 
                                 <label for="linkedin">LinkedIn URL</label>
-                                <input type="url" id="linkedin">
+                                <input type="url" id="linkedin" placeholder="https://linkedin.com/in/yourprofile">
 
                                 <label for="github">GitHub URL</label>
-                                <input type="url" id="github">
+                                <input type="url" id="github" placeholder="https://github.com/yourusername">
 
                                 <h2 class="section-title">Professional Summary</h2>
-                                <textarea id="summary" rows="4"></textarea>
+                                <textarea id="summary" rows="4" placeholder="Write a brief summary of your professional background and skills"></textarea>
 
                                 <h2 class="section-title">Education</h2>
                                 <label for="degree">Degree</label>
-                                <input type="text" id="degree">
+                                <input type="text" id="degree" placeholder="e.g., Bachelor of Science in Computer Science">
 
                                 <label for="institution">Institution</label>
-                                <input type="text" id="institution">
+                                <input type="text" id="institution" placeholder="Enter the name of your educational institution">
 
                                 <label for="year">Year</label>
-                                <input type="number" id="year">
+                                <input type="number" id="year" placeholder="e.g., 2020">
 
                                 <label for="cgpa">CGPA</label>
-                                <input type="text" id="cgpa">
+                                <input type="text" id="cgpa" placeholder="e.g., 3.8/4.0">
 
                                 <h2 class="section-title">Skills</h2>
                                 <div id="skills-container">
@@ -162,33 +162,25 @@
 
                                 <h2 class="section-title">Experience / Projects</h2>
                                 <label for="exp-title">Title</label>
-                                <input type="text" id="exp-title">
+                                <input type="text" id="exp-title" placeholder="e.g., Software Engineer">
 
                                 <label for="exp-org">Organization</label>
-                                <input type="text" id="exp-org">
+                                <input type="text" id="exp-org" placeholder="Enter company or organization name">
 
                                 <label for="exp-duration">Duration</label>
-                                <input type="text" id="exp-duration">
+                                <input type="text" id="exp-duration" placeholder="e.g., Jan 2020 - Dec 2022">
 
                                 <label for="exp-desc">Description</label>
-                                <textarea id="exp-desc" rows="4"></textarea>
+                                <textarea id="exp-desc" rows="4" placeholder="Describe your responsibilities and achievements"></textarea>
 
                                 <h2 class="section-title">Achievements / Certifications (Optional)</h2>
-                                <textarea id="achievements" rows="4"></textarea>
+                                <textarea id="achievements" rows="4" placeholder="List your achievements, certifications, or awards"></textarea>
                             </form>
                         </div>
 
                         <div class="preview-section">
                             <div class="preview-header-with-buttons">
                                 <h2>Live Preview</h2>
-                                <div class="template-selector">
-                                    <label for="template-select">Template:</label>
-                                    <select id="template-select">
-                                        <option value="modern">Modern</option>
-                                        <option value="classic">Classic</option>
-                                        <option value="minimal">Minimal</option>
-                                    </select>
-                                </div>
                                 <button id="download-preview-pdf" class="download-preview-btn">Download PDF</button>
                             </div>
                             <article id="resume-preview">
@@ -205,27 +197,27 @@
   </header>
 
   <section class="preview-section-block" data-section="summary" draggable="true">
-    <h2>Professional Summary <span class="section-controls"><button class="move-up" data-section="summary" aria-label="Move up">↑</button><button class="move-down" data-section="summary" aria-label="Move down">↓</button></span></h2>
+    <h2>Professional Summary</h2>
     <p id="preview-summary"></p>
   </section>
 
   <section class="preview-section-block" data-section="education" draggable="true">
-    <h2>Education <span class="section-controls"><button class="move-up" data-section="education" aria-label="Move up">↑</button><button class="move-down" data-section="education" aria-label="Move down">↓</button></span></h2>
+    <h2>Education</h2>
     <p id="preview-education"></p>
   </section>
 
   <section class="preview-section-block" data-section="skills" draggable="true">
-    <h2>Skills <span class="section-controls"><button class="move-up" data-section="skills" aria-label="Move up">↑</button><button class="move-down" data-section="skills" aria-label="Move down">↓</button></span></h2>
+    <h2>Skills</h2>
     <div id="preview-skills"></div>
   </section>
 
   <section class="preview-section-block" data-section="experience" draggable="true">
-    <h2>Experience / Projects <span class="section-controls"><button class="move-up" data-section="experience" aria-label="Move up">↑</button><button class="move-down" data-section="experience" aria-label="Move down">↓</button></span></h2>
+    <h2>Experience / Projects</h2>
     <div id="preview-experience"></div>
   </section>
 
   <section class="preview-section-block" data-section="achievements" draggable="true">
-    <h2>Achievements / Certifications <span class="section-controls"><button class="move-up" data-section="achievements" aria-label="Move up">↑</button><button class="move-down" data-section="achievements" aria-label="Move down">↓</button></span></h2>
+    <h2>Achievements / Certifications</h2>
     <p id="preview-achievements"></p>
   </section>
 </article>
